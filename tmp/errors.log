@@ -1,0 +1,295 @@
+[02.03.2020 14:33:30]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:33:30]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:33:41]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:33:46]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:33:46]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:34:16]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 14:34:37]
+                                Текст ошибки: Не найдена 66 | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\public\index.php | 
+                                Строка: 10 
+ ___________________________________ 
+[02.03.2020 15:35:56]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 33 
+ ___________________________________ 
+[02.03.2020 15:51:58]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 33 
+ ___________________________________ 
+[02.03.2020 16:02:28]
+                                Текст ошибки: Контроллер app\controllers\PageTgtController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 36 
+ ___________________________________ 
+[02.03.2020 16:02:40]
+                                Текст ошибки: Class 'app\controllers\PageTgtController' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 32 
+ ___________________________________ 
+[02.03.2020 16:07:00]
+                                Текст ошибки: Контроллер app\controllers\PageTgtController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:07:19]
+                                Текст ошибки: Контроллер app\controllers\MainController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:09:22]
+                                Текст ошибки: Контроллер app\controllers\MainControllerController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:10:53]
+                                Текст ошибки: Контроллер app\controllers\MainControllerController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:11:15]
+                                Текст ошибки: Метод app\controllers\MainController::indexAction не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 40 
+ ___________________________________ 
+[02.03.2020 16:15:17]
+                                Текст ошибки: Контроллер app\controllers\MainControllerController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:15:18]
+                                Текст ошибки: Контроллер app\controllers\MainControllerController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 16:48:45]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 46 
+ ___________________________________ 
+[02.03.2020 16:54:28]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[02.03.2020 17:15:37]
+                                Текст ошибки: syntax error, unexpected ';', expecting ')' | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[02.03.2020 17:15:49]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 6 
+ ___________________________________ 
+[02.03.2020 17:16:50]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 6 
+ ___________________________________ 
+[02.03.2020 17:16:50]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 6 
+ ___________________________________ 
+[02.03.2020 17:17:19]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 6 
+ ___________________________________ 
+[02.03.2020 17:19:02]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:19:02]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:19:03]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:22:11]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:23:42]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:23:42]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:23:58]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:23:58]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:23:59]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:24:47]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 6 
+ ___________________________________ 
+[02.03.2020 17:25:52]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:38:41]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:38:42]
+                                Текст ошибки: Class 'app\controllers\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:40:23]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:40:24]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:40:28]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:40:45]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:40:46]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 7 
+ ___________________________________ 
+[02.03.2020 17:41:05]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:41:05]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:41:06]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:41:06]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:41:06]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:41:57]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:42:46]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:43:37]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 17:43:38]
+                                Текст ошибки: Class 'ishop\core\base\Controller' not found | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 8 
+ ___________________________________ 
+[02.03.2020 18:07:21]
+                                Текст ошибки: На найден вид D:\OSPanel\domains\ishop2-dev/app/views//.php | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 37 
+ ___________________________________ 
+[02.03.2020 18:07:41]
+                                Текст ошибки: На найден вид D:\OSPanel\domains\ishop2-dev/app/views//.php | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[02.03.2020 18:08:52]
+                                Текст ошибки: На найден вид D:\OSPanel\domains\ishop2-dev/app/views//.php | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[02.03.2020 18:08:58]
+                                Текст ошибки: Контроллер app\controllers\IndexController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 18:09:04]
+                                Текст ошибки: На найден вид D:\OSPanel\domains\ishop2-dev/app/views//.php | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[02.03.2020 18:16:38]
+                                Текст ошибки: Контроллер app\controllers\MainyController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
+[02.03.2020 18:18:33]
+                                Текст ошибки: Контроллер app\controllers\MainyController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 44 
+ ___________________________________ 
