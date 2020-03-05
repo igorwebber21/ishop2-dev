@@ -24,6 +24,8 @@
         // if routing url mathes class controller and class method exists, create controller object and call class method
         public static function dispatch($url){
 
+            $url = self::removeQueryString($url);
+
             if(self::matchRoute($url)){
                 $controller = 'app\controllers\\'. self::$route['prefix'] . self::$route['controller']. 'Controller';
                 //echo $controller;
@@ -95,5 +97,22 @@
         protected static function lowerCamelCase($name){
             return  lcfirst(self::upperCamelCase($name));
         }
+
+        protected static function removeQueryString($url){
+
+            if($url){
+                // max 2 parameters in $_GET query
+                $params = explode('&', $url, 2);
+               // debug($params);
+
+                if(false === strpos($params[0], '=')){
+                    return rtrim($params[0], '/');
+                }
+                else{
+                    return '';
+                }
+            }
+        }
+
 
     }

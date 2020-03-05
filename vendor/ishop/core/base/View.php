@@ -28,14 +28,15 @@
         }
 
         public function render($data){
-            $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
 
-            echo $viewFile;
+
+
+            if(is_array($data)) extract($data);
+            $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
             if(is_file($viewFile)){
                 ob_start();
                 require_once $viewFile;
                 $content = ob_get_clean();
-                //echo $content;
             }else{
                 throw new \Exception("На найден вид {$viewFile}", 500);
             }
@@ -50,7 +51,10 @@
         }
 
         public function getMeta(){
-
+            $output = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
+            $output .= '    <meta name="description" content="' . $this->meta['description'] . '">' . PHP_EOL;
+            $output .= '    <meta name="keywords" content="' . $this->meta['keywords'] . '">' . PHP_EOL;
+            return $output;
         }
 
     }

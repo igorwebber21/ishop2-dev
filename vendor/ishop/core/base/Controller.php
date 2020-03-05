@@ -28,7 +28,7 @@
         }
 
         public function set($data){
-
+            $this->data = $data;
         }
 
         public function setMeta($title = '', $description = '', $keywords = ''){
