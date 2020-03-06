@@ -14,20 +14,22 @@
 //        $this->layout = 'test';
 //        echo __METHOD__;
 
-            $brands = R::getAll( 'SELECT * FROM brand');
-           // debug($brands);
+            $brands = R::find('brand', 'LIMIT 3');
+          //  debug($brands);
+            $this->set(compact('brands'));
 
-            $this->setMeta(App::$app->getProperty("shop_name"), "Описание", "Ключевики");
-            $names = array('Mike', 'john');
+           // $this->setMeta(App::$app->getProperty("shop_name"), "Описание", "Ключевики");
+
+          /*  $names = array('Mike', 'john');
             $name = 'Andrey';
             $age = 33;
 
             $cache = Cache::instance();
            // $cache->set('test', $names);
             $data = $cache->get('test');
-            debug($data);
-
-            $this->set(compact('name','age', 'names'));
+           // debug($data);
+*/
+            //$this->set(compact('name','age', 'names'));
         }
 
     }

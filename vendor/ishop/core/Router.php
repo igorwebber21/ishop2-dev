@@ -33,7 +33,8 @@
                 if(class_exists($controller)){
                     $controllerObject = new $controller(self::$route);
                     $action = self::lowerCamelCase(self::$route['action']). 'Action';
-                    //echo $action;
+                    //var_dump($controllerObject);
+                   // echo " - ".$action;
                     if(method_exists($controllerObject, $action)){
                         $controllerObject->$action();
                         $controllerObject->getView();

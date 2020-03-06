@@ -4,7 +4,6 @@
 
     use app\models\AppModel;
     use ishop\base\Controller;
-    use RedBeanPHP\R as R;
 
     class AppController extends Controller{
 
