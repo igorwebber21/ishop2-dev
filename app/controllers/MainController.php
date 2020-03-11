@@ -15,8 +15,14 @@
 //        echo __METHOD__;
 
             $brands = R::find('brand', 'LIMIT 3');
-          //  debug($brands);
-            $this->set(compact('brands'));
+
+            $hits = R::find('product', "hit = '1' AND status = '1' LIMIT 8");
+
+            //current currency
+            $curr = App::$app->getProperty('currency');
+
+            //debug($hits);
+            $this->set(compact('brands', 'hits', 'curr'));
 
            // $this->setMeta(App::$app->getProperty("shop_name"), "Описание", "Ключевики");
 

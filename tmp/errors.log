@@ -1,0 +1,100 @@
+[09.03.2020 15:26:38]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[09.03.2020 17:57:18]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[09.03.2020 18:26:09]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[09.03.2020 18:37:32]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 11:34:09]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 12:19:21]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 13:00:07]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 13:00:09]
+                                Текст ошибки: Call to a member function findOne() on null | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | 
+                                Строка: 989 
+ ___________________________________ 
+[10.03.2020 13:12:13]
+                                Текст ошибки: Call to undefined function app\controllers\getProperty() | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\MainController.php | 
+                                Строка: 21 
+ ___________________________________ 
+[10.03.2020 13:13:37]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 13:13:47]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 13:42:38]
+                                Текст ошибки: syntax error, unexpected ';', expecting ')' | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\controllers\AppController.php | 
+                                Строка: 23 
+ ___________________________________ 
+[10.03.2020 13:55:19]
+                                Текст ошибки: syntax error, unexpected 'debug' (T_STRING) | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\widgets\menu\Menu.php | 
+                                Строка: 53 
+ ___________________________________ 
+[10.03.2020 13:56:06]
+                                Текст ошибки: Call to undefined function app\widgets\menu\getTree() | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\app\widgets\menu\Menu.php | 
+                                Строка: 52 
+ ___________________________________ 
+[10.03.2020 15:32:45]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[10.03.2020 15:59:56]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[10.03.2020 15:59:57]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[10.03.2020 16:15:15]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[10.03.2020 16:16:04]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[11.03.2020 13:46:27]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
