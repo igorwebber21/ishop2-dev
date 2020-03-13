@@ -17,7 +17,7 @@
             $brands = R::find('brand', 'LIMIT 3');
 
             $hits = R::find('product', "hit = '1' AND status = '1' LIMIT 8");
-
+            $hits = object_to_array($hits);
             //current currency
             $curr = App::$app->getProperty('currency');
 

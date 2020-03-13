@@ -48,18 +48,18 @@
                 <?php foreach ($hits as $hit): ?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="product/<?=$hit->alias?>" class="mask">
-                            <img class="img-responsive zoom-img" src="images/<?=$hit->img?>"  alt="" /></a>
+                        <a href="product/<?=$hit['alias']?>" class="mask">
+                            <img class="img-responsive zoom-img" src="images/<?=$hit['img']?>"  alt="" /></a>
                         <div class="product-bottom">
-                            <h3><?=$hit->title?></h3>
+                            <h3><?=$hit['title']?></h3>
                             <p>Explore Now</p>
-                            <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id?>"><i></i></a>
+                            <h4><a class="add-to-cart-link" data-id="<?=$hit['id']?>" href="cart/add?id=<?=$hit['id']?>"><i></i></a>
                                 <span class=" item_price">
                                 <?=$curr['symbol_left']?>
-                                    <?=$hit->price * $curr['value'];?>
+                                    <?=$hit['price'] * $curr['value'];?>
                                 <?=$curr['symbol_right']?>
-                                <?php if($hit->old_price): ?>
-                                    <small><del><?=$curr['symbol_left']?> <?=$hit->old_price * $curr['value'];?><?=$curr['symbol_right']?></del></small>
+                                <?php if($hit['old_price']): ?>
+                                    <small><del><?=$curr['symbol_left']?> <?=$hit['old_price'] * $curr['value'];?><?=$curr['symbol_right']?></del></small>
                                 <?php endif; ?>
                                 </span></h4>
                         </div>

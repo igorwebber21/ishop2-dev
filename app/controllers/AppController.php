@@ -21,6 +21,9 @@
 
             App::$app->setProperty('cats', self::cacheCategory());
 
+
+
+
             //debug( App::$app->getProperties());
         }
 
