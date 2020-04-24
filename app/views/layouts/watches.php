@@ -46,12 +46,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
+
+                    <a href="/cart/show" id="get-cart">
+                        <div class="total">
+                            <img src="images/cart-1.png" alt="" />
+                            <?php if(!empty($_SESSION['cart'])): ?>
+                                <span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right'];?></span>
+                            <?php else: ?>
+                                <span class="simpleCart_total">Empty Cart</span>
+                            <?php endif; ?>
+                        </div>
+                    </a>
+                    <!--
                     <a href="checkout.html">
                         <div class="total">
                             <span class="simpleCart_total"></span></div>
                         <img src="images/cart-1.png" alt="" />
                     </a>
                     <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+                    --->
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -85,8 +98,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
+                    <form action="search" autocomplete="off">
+                        <input type="text" id="typeahead" class="typeahead" name="s">
+                        <input type="submit" value="">
+                    </form>
+                    <!--
                     <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
                     <input type="submit" value="">
+                   -->
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -96,6 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
+    <?php //debug($_SESSION); //session_destroy(); //debug($_SESSION); ?>
     <?=$content;?>
 </div>
 
@@ -163,6 +183,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--footer-end-->
 
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+                <button type="button" class="btn btn-danger" id="clear-cart">Очистить корзину</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 <script>
     var path = '<?=PATH?>',
@@ -173,6 +213,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery-1.11.0.min.js"></script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/typeahead.bundle.js"></script>
 <!--Slider-Starts-Here-->
 <script src="js/responsiveslides.min.js"></script>
 <script>

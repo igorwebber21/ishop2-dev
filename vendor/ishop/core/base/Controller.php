@@ -45,6 +45,8 @@
         public function loadView($view, $vars = []){
             extract($vars);
             require APP . "/views/{$this->prefix}{$this->controller}/{$view}.php";
+            // session_destroy();
+           // debug($_SESSION);
             die;
         }
 

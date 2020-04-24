@@ -32,3 +32,9 @@ function object_to_array($data)
     }
     return $data;
 }
+
+
+
+function h($str){
+    return htmlspecialchars($str, ENT_QUOTES);
+}

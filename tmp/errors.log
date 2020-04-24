@@ -633,3 +633,403 @@
                                 Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
                                 Строка: 51 
  ___________________________________ 
+[23.03.2020 11:36:35]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 10:40:18]
+                                Текст ошибки: Нет соединения с БД | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\DB.php | 
+                                Строка: 18 
+ ___________________________________ 
+[24.04.2020 10:40:18]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 11:00:51]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[24.04.2020 12:49:37]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 12:57:27]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 12:57:27]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 12:57:27]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:01:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:01:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:01:11]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:13:29]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:13:30]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:13:30]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:25:00]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:25:00]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:25:00]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 13:26:37]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:00:22]
+                                Текст ошибки: Метод app\controllers\CartController::viewAction не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[24.04.2020 15:22:47]
+                                Текст ошибки: Метод app\controllers\CartController::showAction не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[24.04.2020 15:25:55]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:25:55]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:25:55]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:13]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:13]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:13]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:43]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:44]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:44]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:27:44]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:29:34]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:29:34]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:29:34]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:29:35]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:31:45]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:31:46]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:31:46]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:31:46]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:09]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:32]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:33]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:33]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:34:34]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:35:31]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:38:12]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:41:20]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:42:29]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:44:38]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:44:50]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:44:50]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:44:50]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:05]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:06]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:06]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:06]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:27]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:33]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:33]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:33]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 15:45:51]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 16:13:49]
+                                Текст ошибки: Метод app\controllers\CartController::viewAction не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[24.04.2020 16:38:26]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 16:41:47]
+                                Текст ошибки: На найден вид E:\OSPanel\domains\ishop2-dev/app/views/Cart/clear.php | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[24.04.2020 16:43:32]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 17:25:12]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[24.04.2020 17:31:01]
+                                Текст ошибки: Контроллер app\controllers\SearchController не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[24.04.2020 17:34:29]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:30]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:34]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:34]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:37]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:42]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:34:44]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:36:26]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\app\controllers\SearchController.php | 
+                                Строка: 11 
+ ___________________________________ 
+[24.04.2020 17:39:26]
+                                Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[24.04.2020 17:39:46]
+                                Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[24.04.2020 19:16:15]
+                                Текст ошибки: Контроллер app\controllers\CategoryController не найден | 
+                                Файл: E:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
