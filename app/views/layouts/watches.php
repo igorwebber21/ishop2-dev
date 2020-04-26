@@ -41,6 +41,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <option value="3">German</option>
                         </select>
                     </div>
+                    <div class="btn-group">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <?php if(!empty($_SESSION['user'])): ?>
+                                <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
+                                <li><a href="user/logout">Выход</a></li>
+                            <?php else: ?>
+                                <li><a href="user/login">Вход</a></li>
+                                <li><a href="user/signup">Регистрация</a></li>
+                            <?php endif; ?>
+                        </ul>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -116,6 +128,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <div class="content">
     <?php //debug($_SESSION); //session_destroy(); //debug($_SESSION); ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php if(isset($_SESSION['error'])): ?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if(isset($_SESSION['success'])): ?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
     <?=$content;?>
 </div>
 
