@@ -242,6 +242,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/validator.min.js"></script>
 <script src="js/typeahead.bundle.js"></script>
 <!--Slider-Starts-Here-->
 <script src="js/responsiveslides.min.js"></script>

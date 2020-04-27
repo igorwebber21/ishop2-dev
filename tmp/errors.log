@@ -1233,3 +1233,63 @@
                                 Файл: D:\OSPanel\domains\ishop2-dev\vendor\vlucas\valitron\src\Valitron\Validator.php | 
                                 Строка: 113 
  ___________________________________ 
+[27.04.2020 21:21:19]
+                                Текст ошибки: Нет соединения с БД | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\DB.php | 
+                                Строка: 18 
+ ___________________________________ 
+[27.04.2020 21:21:22]
+                                Текст ошибки: Нет соединения с БД | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\DB.php | 
+                                Строка: 18 
+ ___________________________________ 
+[27.04.2020 21:21:22]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[27.04.2020 21:21:34]
+                                Текст ошибки: Нет соединения с БД | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\DB.php | 
+                                Строка: 18 
+ ___________________________________ 
+[27.04.2020 21:25:29]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[27.04.2020 21:31:34]
+                                Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'igorwebber21@gmail.com' for key 'email' | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[27.04.2020 21:34:48]
+                                Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paassword' in 'field list' | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[27.04.2020 21:57:10]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[27.04.2020 21:58:31]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[27.04.2020 21:58:32]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[27.04.2020 22:01:50]
+                                Текст ошибки: Метод app\controllers\CartController::viewAction не найден | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[27.04.2020 22:05:01]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
