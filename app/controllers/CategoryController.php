@@ -23,7 +23,6 @@
 
             }
 
-
             // breadcrumbs
             $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
             $cat_model = new Category();

@@ -7,6 +7,8 @@ class App{
     public static $app;
 
     public function __construct(){
+
+        //  $query = http://ishop2-dev/category/elektronnye => category/elektronnye
         $query = trim($_SERVER['QUERY_STRING'], '/');
         session_start();
 

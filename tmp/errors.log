@@ -1293,3 +1293,162 @@
                                 Файл: D:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
                                 Строка: 51 
  ___________________________________ 
+[23.06.2020 13:17:29]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[23.06.2020 13:42:11]
+                                Текст ошибки: Метод app\controllers\UserController::indexAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[26.06.2020 10:06:58]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 10:10:50]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 10:10:53]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 10:11:48]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 10:17:53]
+                                Текст ошибки: Метод app\controllers\CategoryController::elektronnyeAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[26.06.2020 11:23:51]
+                                Текст ошибки: Метод app\controllers\CartController::viewAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[26.06.2020 11:29:26]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 11:35:25]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 11:35:25]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[26.06.2020 12:17:37]
+                                Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'currency' cannot be null | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[26.06.2020 13:58:57]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 14:56:15]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 15:05:34]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/Cart/checkout.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[28.08.2020 15:56:20]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 15:56:22]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 15:56:42]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 16:00:15]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/Cart/checkout.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[28.08.2020 16:00:25]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "igorwebber21@gmail.com" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:01:28]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "igorwebber21@ukr.net" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:05:25]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "igorwebber21@ukr.net" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:06:48]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "ishop" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:07:43]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 16:07:44]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[28.08.2020 16:07:46]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "ishop" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:09:15]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "ishop" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:12:53]
+                                Текст ошибки: Failed to authenticate on SMTP server with username "ishop" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 Incorrect authentication data
+". | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | 
+                                Строка: 191 
+ ___________________________________ 
+[28.08.2020 16:32:12]
+                                Текст ошибки: Expected response code 354 but got an empty response | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php | 
+                                Строка: 445 
+ ___________________________________ 
