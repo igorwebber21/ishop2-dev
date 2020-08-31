@@ -1046,7 +1046,6 @@ a.mask {
 	line-height: 27px;
 	color: #555555;
 	cursor: pointer;
-	text-transform: capitalize;
 	font-weight: normal;
 	margin-top: 0;
 }
@@ -3200,4 +3199,21 @@ form .has-error .form-control{
 .form-control-feedback {
 	right: 10px;
 	top: 25px;
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background: #fefefe;
+	opacity: 0.7;
+	display: none;
+}
+.preloader img {
+	position: relative;
+	left: calc(50% - 100px);
+	top: calc(50vh - 100px);
 }

@@ -9,6 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 
     <base href="/">
+    <link rel="shortcut icon" href="/images/star.png" type="image/png" />
     <?=$this->getMeta();?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -229,6 +230,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
+</div>
+
+<div class="preloader">
+    <img src="images/ring.svg" alt="">
 </div>
 
 <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
