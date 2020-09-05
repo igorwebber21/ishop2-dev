@@ -53,11 +53,11 @@
                  */
             }
 
-            $total = R::count('product', "category_id IN ($ids) $sql_part");
+            $total = R::count('product', "category_id IN ($ids) AND status = '1' $sql_part");
             $pagination = new Pagination($page, $perpage, $total);
             $start =  $pagination->getStart();
 
-            $products = R::find('product', "category_id IN ($ids) $sql_part LIMIT $start, $perpage");
+            $products = R::find('product', "category_id IN ($ids) AND status = '1' $sql_part LIMIT $start, $perpage");
 
            /* $logs = R::getDatabaseAdapter()
                 ->getDatabase()
