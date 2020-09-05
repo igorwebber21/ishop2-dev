@@ -35,6 +35,13 @@ function object_to_array($data)
 
 
 
-function h($str){
+function h($str)
+{
     return htmlspecialchars($str, ENT_QUOTES);
+}
+
+
+function date_point_format($date_str)
+{
+    return $date_str ? date('d.m.Y H:i', strtotime($date_str)) : '';
 }

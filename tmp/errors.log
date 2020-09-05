@@ -1807,3 +1807,226 @@
                                 Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
                                 Строка: 51 
  ___________________________________ 
+[05.09.2020 12:48:14]
+                                Текст ошибки: Контроллер app\controllers\admin\OrderController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 12:48:14]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 12:48:19]
+                                Текст ошибки: Контроллер app\controllers\admin\ProductController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 12:48:22]
+                                Текст ошибки: Контроллер app\controllers\admin\UsersController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 12:48:25]
+                                Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 13:04:17]
+                                Текст ошибки: Class 'R' not found | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 13 
+ ___________________________________ 
+[05.09.2020 13:04:35]
+                                Текст ошибки: Class 'app\controllers\admin\Pagination' not found | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 16 
+ ___________________________________ 
+[05.09.2020 13:06:44]
+                                Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[05.09.2020 13:06:52]
+                                Текст ошибки: Метод app\controllers\admin\OrderController::viewAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[05.09.2020 14:16:37]
+                                Текст ошибки: Call to undefined method app\controllers\admin\OrderController::getRequestID() | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 35 
+ ___________________________________ 
+[05.09.2020 14:17:42]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/admin\Order/view.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[05.09.2020 14:35:59]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 14:41:05]
+                                Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 14:41:08]
+                                Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 14:52:12]
+                                Текст ошибки: Метод app\controllers\admin\UserController::editAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[05.09.2020 14:52:12]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 15:04:20]
+                                Текст ошибки: Метод app\controllers\admin\OrderController::changeAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[05.09.2020 15:04:20]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 15:08:06]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 15:10:01]
+                                Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 43 
+ ___________________________________ 
+[05.09.2020 15:10:01]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 15:20:21]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/admin\Order/change.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[05.09.2020 15:20:21]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 15:24:19]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/admin\Order/change.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[05.09.2020 15:24:55]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/admin\Order/change.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[05.09.2020 15:26:26]
+                                Текст ошибки: Class 'mysql_xdevapi\Exception' not found | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 68 
+ ___________________________________ 
+[05.09.2020 15:27:08]
+                                Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:28:22]
+                                Текст ошибки: Class 'mysql_xdevapi\Exception' not found | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 68 
+ ___________________________________ 
+[05.09.2020 15:30:13]
+                                Текст ошибки: Call to undefined function app\controllers\admin\redirect() | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 71 
+ ___________________________________ 
+[05.09.2020 15:31:24]
+                                Текст ошибки: На найден вид C:\OSPanel\domains\ishop2-dev/app/views/admin\Order/change.php | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\base\View.php | 
+                                Строка: 39 
+ ___________________________________ 
+[05.09.2020 15:43:18]
+                                Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:44:02]
+                                Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:47:27]
+                                Текст ошибки: syntax error, unexpected '0' (T_LNUMBER) | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\app\controllers\admin\OrderController.php | 
+                                Строка: 62 
+ ___________________________________ 
+[05.09.2020 15:55:06]
+                                Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:55:28]
+                                Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:55:39]
+                                Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`date`, `orders`.`update_at`, 
+                                  `orders`.`cur' at line 1 | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 15:56:34]
+                                Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 16:03:30]
+                                Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '16:03:30 WHERE id = 36' at line 1 | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 16:07:28]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 16:10:06]
+                                Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN `user` ON `orders`.`user_id` = `user`.`id`
+                               ' at line 2 | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 16:10:47]
+                                Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `orders`
+                                JOIN `user` ON `orders`.`user_id`' at line 2 | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | 
+                                Строка: 194 
+ ___________________________________ 
+[05.09.2020 16:54:11]
+                                Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 
+[05.09.2020 16:54:11]
+                                Текст ошибки: Страница не найдена | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 51 
+ ___________________________________ 
+[05.09.2020 16:57:19]
+                                Текст ошибки: Контроллер app\controllers\admin\ProductController не найден | 
+                                Файл: C:\OSPanel\domains\ishop2-dev\vendor\ishop\core\Router.php | 
+                                Строка: 47 
+ ___________________________________ 

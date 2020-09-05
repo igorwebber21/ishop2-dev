@@ -11,8 +11,8 @@
         public $countPages;
         public $uri;
 
-        public function __construct($page, $perpage, $total){
-
+        public function __construct($page, $perpage, $total)
+        {
             $this->perpage = $perpage;
             $this->total = $total;
             $this->countPages = $this->getCountPages();
@@ -21,8 +21,8 @@
            // var_dump($this->uri);
         }
 
-        public function getHtml(){
-
+        public function getHtml()
+        {
             $back = null; // ссылка НАЗАД
             $forward = null; // ссылка ВПЕРЕД
             $startpage = null; // ссылка В НАЧАЛО
@@ -60,25 +60,30 @@
             return '<ul class="pagination">' . $startpage.$back.$page2left.$page1left.'<li class="active"><a>'.$this->currentPage.'</a></li>'.$page1right.$page2right.$forward.$endpage . '</ul>';
         }
 
-        public function __toString(){
+        public function __toString()
+        {
             return $this->getHtml();
         }
 
-        public function getCountPages(){
+        public function getCountPages()
+        {
             return ceil($this->total / $this->perpage) ?: 1;
         }
 
-        public function getCurrentPage($page){
+        public function getCurrentPage($page)
+        {
             if(!$page || $page < 1) $page = 1;
             if($page > $this->countPages) $page = $this->countPages;
             return $page;
         }
 
-        public function getStart(){
+        public function getStart()
+        {
             return ($this->currentPage - 1) * $this->perpage;
         }
 
-        public function getParams(){
+        public function getParams()
+        {
             $url = $_SERVER['REQUEST_URI'];
             preg_match_all("#filter=[\d,&]#", $url, $matches);
             if(count($matches[0]) > 1){

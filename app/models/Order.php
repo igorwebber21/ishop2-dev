@@ -12,7 +12,7 @@ class Order extends AppModel
 
     public static function saveOrder($data)
     {
-        $order = R::dispense('order');
+        $order = R::dispense('orders');
 
         $order->user_id = $data['user_id'];
         $order->note = $data['note'];
