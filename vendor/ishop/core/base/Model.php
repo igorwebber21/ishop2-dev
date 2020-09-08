@@ -18,39 +18,58 @@
             DB::instance();
         }
 
-        public function load($data){
-            foreach($this->attributes as $name => $value){
-                if(isset($data[$name])){
+        public function load($data)
+        {
+            foreach($this->attributes as $name => $value)
+            {
+                if(isset($data[$name]))
+                {
                     $this->attributes[$name] = $data[$name];
                 }
             }
         }
 
-        public function save($table){
+        public function save($table)
+        {
             $tbl = R::dispense($table);
-            foreach ($this->attributes as $name => $value){
+            foreach ($this->attributes as $name => $value)
+            {
                 $tbl->$name = $value;
             }
             return R::store($tbl);
         }
-        
 
-        public function validate($data){
+        public function update($table, $id)
+        {
+            $bean = R::load($table, $id);
+            foreach ($this->attributes as $name => $value)
+            {
+                $bean->$name = $value;
+            }
+            return R::store($bean);
+        }
+
+        public function validate($data)
+        {
             Validator::langDir(WWW.'/validator/lang');
             Validator::lang('ru');
             $v = new Validator($data);
             $v->rules($this->rules);
-            if($v->validate()){
+            if($v->validate())
+            {
                 return true;
             }
             $this->errors = $v->errors();
             return false;
         }
 
-        public function getErrors(){
+        public function getErrors()
+        {
             $errors = '<ul>';
-            foreach($this->errors as $error){
-                foreach($error as $item){
+            foreach($this->errors as $error)
+            {
+                foreach($error as $item)
+                {
                     $errors .= "<li>$item</li>";
                 }
             }
