@@ -14,6 +14,7 @@
             'name' => '',
             'email' => '',
             'address' => '',
+            'role' => 'user',
         ];
 
         public $rules = [
