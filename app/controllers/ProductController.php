@@ -11,8 +11,8 @@
 
     class ProductController extends AppController
     {
-        public function viewAction(){
-
+        public function viewAction()
+        {
             //current currency
             $curr = App::$app->getProperty('currency');
 
@@ -20,7 +20,7 @@
             $cats = App::$app->getProperty('cats');
 
             $alias = $this->route['alias'];
-            $product = R::findOne('product', "alias = ? AND status ='1'", [$alias]);
+            $product = R::findOne('product', "alias = ? AND status ='visible'", [$alias]);
            // debug($product);
 
             if(!$product){
@@ -30,18 +30,15 @@
             // breadcrumbs
             $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id, $product->title);
 
-
             // related products
             $related = R::getAll("SELECT * FROM related_product JOIN product 
                                        ON product.id = related_product.related_id 
                                        WHERE related_product.product_id = ?", [$product->id]);
             //debug($related);
 
-
             // add to cookie selected product
             $p_model = new Product();
             $p_model->setRecentlyViewed($product->id);
-
 
             // viewed products
             $r_viewed = $p_model->getRecentlyViewed($product->id);
@@ -55,11 +52,9 @@
             //$p_model->deleteRecentlyViewed();
             //debug($recentlyViewed);
 
-
             // gallery
             $gallery = R::findAll("gallery", 'product_id = ? ', [$product->id]);
             //debug($gallery);
-
 
             // modifications
             $modes = R::findAll('modification', 'product_id = ?', [$product->id]);

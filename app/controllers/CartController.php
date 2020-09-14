@@ -10,7 +10,8 @@
     class CartController extends AppController {
 
         // добавить в корзину
-        public function addAction(){
+        public function addAction()
+        {
             $id = !empty($_GET['id']) ? (int)$_GET['id'] : null;
             $qty = !empty($_GET['qty']) ? (int)$_GET['qty'] : null;
             $mod_id = !empty($_GET['mod']) ? (int)$_GET['mod'] : null;
@@ -37,11 +38,13 @@
         }
 
 
-        public function showAction(){
+        public function showAction()
+        {
             $this->loadView('cart_modal');
         }
 
-        public function deleteAction(){
+        public function deleteAction()
+        {
             $id = !empty($_GET['id']) ? $_GET['id'] : null;
             if(isset($_SESSION['cart'][$id])){
                 $cart = new Cart();
@@ -53,7 +56,8 @@
             redirect();
         }
 
-        public function clearAction(){
+        public function clearAction()
+        {
             unset($_SESSION['cart']);
             unset($_SESSION['cart.qty']);
             unset($_SESSION['cart.currency']);
@@ -68,7 +72,6 @@
         public function viewAction()
         {
             $this->setMeta('Корзина');
-
         }
 
         public function checkoutAction()

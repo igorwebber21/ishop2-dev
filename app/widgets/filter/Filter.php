@@ -13,9 +13,10 @@ class Filter
     public $attrs;
     public $tpl;
 
-    public function __construct()
+    public function __construct($filter = null, $tpl = '')
     {
-        $this->tpl = __DIR__. '/filter_tpl/filter.php';
+        $this->filter = $filter;
+        $this->tpl = $tpl ? $tpl : __DIR__. '/filter_tpl/filter.php';
         $this->run();
     }
 

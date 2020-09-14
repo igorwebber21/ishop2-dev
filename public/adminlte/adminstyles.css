@@ -62,3 +62,87 @@
 }
 
 /* =============    category    ============= */
+
+
+
+/* =============    products    ============= */
+
+.product-hidden{
+    background: #eee;
+}
+
+.checkbox-text{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form-section-checkboxes{
+    display: flex;
+}
+
+.form-section-bmt{
+    margin: 35px 0 0 0;
+}
+
+.checkbox-delimiter{
+    display: inline-block;
+    width: 1px;
+    background: #aaa;
+    height: auto;
+    margin: 0 25px;
+}
+
+.section-checkbox{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.section-checkbox:after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+
+.section-checkbox label{
+    margin: 0;
+}
+
+.form-group .iradio_minimal-blue{
+    margin-right: 10px;
+}
+
+.form-group .iradio_minimal-blue + span{
+    cursor: pointer;
+}
+
+#product-filters-tabs{
+    border-top: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#product-filters-tabs .tab-content{
+    margin-top: 15px;
+}
+
+#product-filters-tabs .nav-tabs {
+    margin-top: 25px;
+}
+
+#reset-filter{
+    background: #dd4b39;
+    border-color: #d73925;
+    color: #fff;
+}
+
+.related-products + .select2 input {
+    padding: 0 10px!important;
+}
+
+
+/* =============    products    ============= */

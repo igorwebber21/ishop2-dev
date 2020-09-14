@@ -53,14 +53,17 @@ class OrderController extends AppController
     public function changeAction()
     {
         $order_id = $this->getRequestID();
-        $status = !empty($_GET['status']) ? '1' : '0';
+        $status = !empty($_GET['status'])  && $_GET['status'] == 1 ? 'completed' : 'new'; echo $status; exit();
         $order = R::load('orders', $order_id);
         if(!$order){
             throw new Exception('Страница не найдена', 404);
         }
         $update_at = date("Y-m-d H:i:s");
 
-        R::exec( "UPDATE orders SET status='{$status}', update_at = '{$update_at}' WHERE id = {$order_id}");
+        //  R::exec( "UPDATE orders SET status='{$status}', update_at = '{$update_at}' WHERE id = {$order_id}");
+        $order->status = $status;
+        $order->update_at = $update_at;
+        R::store($order);
 
         $_SESSION['success'] = 'Изменения сохранены';
         redirect();

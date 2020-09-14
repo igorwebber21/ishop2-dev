@@ -1,7 +1,8 @@
 <?php
 
-function debug($arr){
+function debug($arr, $exit = false){
     echo '<pre>' . print_r($arr, true) . '</pre>';
+    if($exit) exit();
 }
 
 
