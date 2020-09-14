@@ -654,6 +654,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 
+<!-- ajaxupload -->
+<script src="/js/ajaxupload.js"></script>
+
 
 <script src="adminscripts.js"></script>
 

@@ -21,14 +21,14 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <?php foreach ($gallery as $item): ?>
-                                <li data-thumb="images/<?=$item->img?>">
-                                    <div class="thumb-image"> <img src="images/<?=$item->img?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                                <li data-thumb="upload/products/base/<?=$item->img?>">
+                                    <div class="thumb-image"> <img src="upload/products/gallery/<?=$item->img?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
                         </div>
                          <?php else: ?>
-                            <img src="images/<?=$product->img?>" alt="">
+                            <img src="upload/products/base/<?=$product->img?>" alt="">
                         <?php endif; ?>
                         <!-- FlexSlider -->
 

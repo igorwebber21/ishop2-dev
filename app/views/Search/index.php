@@ -21,7 +21,7 @@
                         <?php foreach($products as $product): ?>
                             <div class="col-md-4 product-left p-left">
                                 <div class="product-main simpleCart_shelfItem">
-                                    <a href="product/<?=$product->alias;?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$product->img;?>" alt="" /></a>
+                                    <a href="product/<?=$product->alias;?>" class="mask"><img class="img-responsive zoom-img" src="upload/products/base/<?=$product->img;?>" alt="" /></a>
                                     <div class="product-bottom">
                                         <h3><?=$product->title;?></h3>
                                         <p>Explore Now</p>

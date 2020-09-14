@@ -144,5 +144,18 @@
     padding: 0 10px!important;
 }
 
+.upload-product-image .overlay{
+    display: none;
+}
+
+.upload-product-image .container-wrap{
+    padding: 25px 0;
+    display: flex;
+}
+
+.upload-product-image .box.box-solid.box-danger,
+.upload-product-image .box.box-solid.box-primary{
+    border-top: none;
+}
 
 /* =============    products    ============= */
