@@ -26,27 +26,6 @@ class ProductController extends AppController
         $this->set(compact('products', 'pagination', 'count'));
     }
 
-    public function addImageAction()
-    {
-        if(isset($_GET['upload']))
-        {
-            if($_POST['name'] == 'single')
-            {
-                $vmax = App::$app->getProperty('img_width');
-                $hmax = App::$app->getProperty('img_height');
-            }
-            else
-            {
-                $vmax = App::$app->getProperty('gallery_width');
-                $hmax = App::$app->getProperty('gallery_height');
-            }
-
-            $name = $_POST['name'];
-            $product = new Product();
-            $product->uploadImg($name, $vmax, $hmax);
-        }
-    }
-
     public function addAction()
     {
         if(!empty($_POST))
@@ -81,6 +60,54 @@ class ProductController extends AppController
         $this->setMeta('Новый товар');
     }
 
+    public function editAction()
+    {
+        if(!empty($_POST))
+        {
+            $id = $this->getRequestID(false);
+            $product = new Product();
+            $data = $_POST;
+            $product->load($data);
+            $product->attributes['status'] = $product->attributes['status'] ? 'visible' : 'hidden';
+            $product->attributes['hit'] = $product->attributes['hit'] ? 'yes' : 'no';
+            $product->getImg();
+
+            if(!$product->validate($data)){
+                $product->getErrors();
+                redirect();
+            }
+
+            if($product->update('product', $id))
+            {
+                $product->editFilter($id, $data);
+                $product->editRelatedProduct($id, $data);
+                $product->saveGallery($id);
+
+                $alias = AppModel::createAlias('product', 'alias', $data['title'], $id);
+                $loadedProduct = R::load('product', $id);
+                $loadedProduct->alias = $alias;
+                R::store($loadedProduct);
+                $_SESSION['success'] = 'Изменения сохранены';
+                redirect();
+            }
+        }
+
+        $id = $this->getRequestID();
+        $product = R::load('product', $id);
+        App::$app->setProperty('parent_id', $product->category_id);
+
+        $filter = R::getCol('SELECT attr_id FROM attribute_product WHERE product_id = ?', [$id]);
+
+        $related_product = R::getAll("SELECT related_product.related_id, product.title FROM related_product 
+                                            JOIN product ON product.id = related_product.related_id 
+                                            WHERE related_product.product_id = ?", [$id]);
+
+        $gallery = R::getCol('SELECT img FROM gallery WHERE product_id = ?', [$id]);
+
+        $this->setMeta("Редактирование товара {$product->title}");
+        $this->set(compact('product', 'filter', 'related_product', 'gallery'));
+    }
+
     public function deleteAction()
     {
         $product_id = $this->getRequestID();
@@ -92,6 +119,27 @@ class ProductController extends AppController
 
         $_SESSION['success'] = 'Товар удален';
         redirect(ADMIN . '/product');
+    }
+
+    public function addImageAction()
+    {
+        if(isset($_GET['upload']))
+        {
+            if($_POST['name'] == 'single')
+            {
+                $vmax = App::$app->getProperty('img_width');
+                $hmax = App::$app->getProperty('img_height');
+            }
+            else
+            {
+                $vmax = App::$app->getProperty('gallery_width');
+                $hmax = App::$app->getProperty('gallery_height');
+            }
+
+            $name = $_POST['name'];
+            $product = new Product();
+            $product->uploadImg($name, $vmax, $hmax);
+        }
     }
 
     public function relatedProductAction()
@@ -123,6 +171,22 @@ class ProductController extends AppController
         }
         echo json_encode($data);
         die;
+    }
+
+    public function deleteGalleryAction()
+    {
+        $id = isset($_POST['id']) ? $_POST['id'] : null;
+        $src = isset($_POST['src']) ? $_POST['src'] : null;
+        if(!$id || !$src){
+            return;
+        }
+
+        if(R::exec("DELETE FROM gallery WHERE product_id = ? AND img = ?", [$id, $src]))
+        {
+            @unlink(WWW .UPLOAD_PRODUCT_GALLERY. $src);
+            exit('1');
+        }
+        return;
     }
 
 }

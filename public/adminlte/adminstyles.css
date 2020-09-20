@@ -149,13 +149,28 @@
 }
 
 .upload-product-image .container-wrap{
-    padding: 25px 0;
+    padding: 25px 0 0 0;
     display: flex;
+    justify-content: space-between;
+}
+
+.upload-product-image .product-image-base{
+    width: 30%;
+}
+
+.upload-product-image .product-image-gallery{
+    width: calc(70% - 50px);
 }
 
 .upload-product-image .box.box-solid.box-danger,
 .upload-product-image .box.box-solid.box-primary{
     border-top: none;
 }
+
+.upload-product-image .multi img{
+    max-height: 150px;
+    cursor: pointer;
+}
+
 
 /* =============    products    ============= */

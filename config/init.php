@@ -15,8 +15,15 @@ $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 // http://ishop2.loc/public/
 $app_path = preg_replace("#[^/]+$#", '', $app_path);
 // http://ishop2.loc
-$app_path = str_replace('/public/', '', $app_path);
+$app_path = str_replace('/public/', '', $app_path);\
+
 define("PATH", $app_path);
 define("ADMIN", PATH . '/admin');
+
+define('UPLOAD_PRODUCT_BASE', '/upload/products/base/');
+define('UPLOAD_PRODUCT_GALLERY', '/upload/products/gallery/');
+
+define("PRODUCTIMG", PATH . UPLOAD_PRODUCT_BASE);
+define("GALLERYIMG", PATH . UPLOAD_PRODUCT_GALLERY);
 
 require_once ROOT . '/vendor/autoload.php';

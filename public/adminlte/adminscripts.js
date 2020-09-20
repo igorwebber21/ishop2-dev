@@ -1,53 +1,60 @@
 
 // =================  upload product images  ================= //
 
-var buttonSingle = $("#single"),
-    buttonMulti = $("#multi"),
-    file;
+if($('div').is('#single')){
+    var buttonSingle = $("#single"),
+        buttonMulti = $("#multi"),
+        file;
+}
 
-new AjaxUpload(buttonSingle, {
-    action: adminpath + '/' + buttonSingle.data('url') + "?upload=1",
-    data: {name: buttonSingle.data('name')},
-    name: buttonSingle.data('name'),
-    onSubmit: function(file, ext){
-        if (! (ext && /^(jpg|png|jpeg|gif)$/i.test(ext))){
-            alert('Ошибка! Разрешены только картинки');
-            return false;
+if(buttonSingle){
+    new AjaxUpload(buttonSingle, {
+        action: adminpath + '/' + buttonSingle.data('url') + "?upload=1",
+        data: {name: buttonSingle.data('name')},
+        name: buttonSingle.data('name'),
+        onSubmit: function(file, ext){
+            if (! (ext && /^(jpg|png|jpeg|gif)$/i.test(ext))){
+                alert('Ошибка! Разрешены только картинки');
+                return false;
+            }
+            buttonSingle.closest('.file-upload').find('.overlay').css({'display':'block'});
+
+        },
+        onComplete: function(file, response){
+            setTimeout(function(){
+                buttonSingle.closest('.file-upload').find('.overlay').css({'display':'none'});
+
+                response = JSON.parse(response);
+                $('.' + buttonSingle.data('name')).html('<img src="/upload/products/base/' + response.file + '" style="max-height: 150px;">');
+            }, 1000);
         }
-        buttonSingle.closest('.file-upload').find('.overlay').css({'display':'block'});
+    });
+}
 
-    },
-    onComplete: function(file, response){
-        setTimeout(function(){
-            buttonSingle.closest('.file-upload').find('.overlay').css({'display':'none'});
+if(buttonMulti){
+    new AjaxUpload(buttonMulti, {
+        action: adminpath + '/' + buttonMulti.data('url') + "?upload=1",
+        data: {name: buttonMulti.data('name')},
+        name: buttonMulti.data('name'),
+        onSubmit: function(file, ext){
+            if (! (ext && /^(jpg|png|jpeg|gif)$/i.test(ext))){
+                alert('Ошибка! Разрешены только картинки');
+                return false;
+            }
+            buttonMulti.closest('.file-upload').find('.overlay').css({'display':'block'});
 
-            response = JSON.parse(response);
-            $('.' + buttonSingle.data('name')).html('<img src="/upload/products/base/' + response.file + '" style="max-height: 150px;">');
-        }, 1000);
-    }
-});
+        },
+        onComplete: function(file, response){
+            setTimeout(function(){
+                buttonMulti.closest('.file-upload').find('.overlay').css({'display':'none'});
 
-new AjaxUpload(buttonMulti, {
-    action: adminpath + '/' + buttonMulti.data('url') + "?upload=1",
-    data: {name: buttonMulti.data('name')},
-    name: buttonMulti.data('name'),
-    onSubmit: function(file, ext){
-        if (! (ext && /^(jpg|png|jpeg|gif)$/i.test(ext))){
-            alert('Ошибка! Разрешены только картинки');
-            return false;
+                response = JSON.parse(response);
+                $('.' + buttonMulti.data('name')).append('<img src="/upload/products/gallery/' + response.file + '" style="max-height: 150px;">');
+            }, 1000);
         }
-        buttonMulti.closest('.file-upload').find('.overlay').css({'display':'block'});
+    });
+}
 
-    },
-    onComplete: function(file, response){
-        setTimeout(function(){
-            buttonMulti.closest('.file-upload').find('.overlay').css({'display':'none'});
-
-            response = JSON.parse(response);
-            $('.' + buttonMulti.data('name')).append('<img src="/upload/products/gallery/' + response.file + '" style="max-height: 150px;">');
-        }, 1000);
-    }
-});
 // =================  upload product images  ================= //
 
 
@@ -64,6 +71,40 @@ $('#reset-filter').click(function(){
 $('.delete').click(function(){
     var res = confirm('Подтвердите действие');
     if(!res) return false;
+});
+
+
+// delete gallery image
+$('.del-item').on('click', function(){
+    var res = confirm('Подтвердите действие');
+    if(!res) return false;
+
+    var $this = $(this),
+        id = $this.data('id'),
+        src = $this.data('src');
+
+    $.ajax({
+        url: adminpath + '/product/delete-gallery',
+        data: {id: id, src: src},
+        type: 'POST',
+        beforeSend: function(){
+            $this.closest('.file-upload').find('.overlay').css({'display':'block'});
+        },
+        success: function(res){
+            setTimeout(function(){
+                $this.closest('.file-upload').find('.overlay').css({'display':'none'});
+                if(res == 1){
+                    $this.fadeOut();
+                }
+            }, 1000);
+        },
+        error: function(){
+            setTimeout(function(){
+                $this.closest('.file-upload').find('.overlay').css({'display':'none'});
+                alert('Ошибка');
+            }, 1000);
+        }
+    });
 });
 
 // =================  active menu item  ================= //

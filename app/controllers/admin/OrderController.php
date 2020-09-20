@@ -5,9 +5,7 @@ namespace app\controllers\admin;
 
 
 use ishop\libs\Pagination;
-use mysql_xdevapi\Exception;
 use RedBeanPHP\R;
-use RedBeanPHP\RedException\SQL;
 
 class OrderController extends AppController
 {
@@ -42,7 +40,7 @@ class OrderController extends AppController
                                 WHERE `orders`.`id` = ?
                                 GROUP BY `orders`.`id` ORDER BY `orders`.`status`, `orders`.`id` LIMIT 1", [$order_id]);
         if(!$order){
-            throw new Exception('Страница не найдена', 404);
+            throw new \Exception('Страница не найдена', 404);
         }
         $order_products = R::findAll('order_product', "order_id = ?", [$order_id]);
         $this->setMeta("Заказ №{$order_id}");
@@ -56,7 +54,7 @@ class OrderController extends AppController
         $status = !empty($_GET['status'])  && $_GET['status'] == 1 ? 'completed' : 'new';
         $order = R::load('orders', $order_id);
         if(!$order){
-            throw new Exception('Страница не найдена', 404);
+            throw new \Exception('Страница не найдена', 404);
         }
         $update_at = date("Y-m-d H:i:s");
 

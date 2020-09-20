@@ -35,7 +35,7 @@
                                 <tbody>
                                 <?php foreach($_SESSION['cart'] as $id => $item): ?>
                                     <tr>
-                                        <td><a href="product/<?=$item['alias'] ?>"><img src="upload/products/base/<?= $item['img'] ?>" alt="<?=$item['title'] ?>"></a></td>
+                                        <td><a href="product/<?=$item['alias'] ?>"><img src="<?=PRODUCTIMG?><?= $item['img'] ?>" alt="<?=$item['title'] ?>"></a></td>
                                         <td><a href="product/<?=$item['alias'] ?>"><?=$item['title'] ?></a></td>
                                         <td><?=$item['qty'] ?></td>
                                         <td><?=$_SESSION['cart.currency']['symbol_left']?> <?=$item['price']?> <?=$_SESSION['cart.currency']['symbol_right'] ?></td>
