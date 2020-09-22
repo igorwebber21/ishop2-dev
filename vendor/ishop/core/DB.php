@@ -27,5 +27,8 @@
                 R::debug(true, 1);
             }
 
+            R::ext('xdispanese', function($type){
+                return R::getRedBean()->dispense($type);
+            });
         }
     }

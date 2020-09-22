@@ -140,7 +140,7 @@
                         <div class="col-md-4 product-left p-left">
                             <div class="product-main simpleCart_shelfItem">
                                 <a href="product/<?=$item['alias']?>" class="mask">
-                                    <img class="img-responsive zoom-img" src="images/<?=$item['img']?>" alt="" /></a>
+                                    <img class="img-responsive zoom-img" src="<?=PRODUCTIMG.$item['img']?>" alt="" /></a>
                                 <div class="product-bottom">
                                     <h3>
                                         <a href="product/<?=$item['alias']?>">
@@ -185,7 +185,7 @@
                                 <div class="col-md-4 product-left p-left">
                                     <div class="product-main simpleCart_shelfItem">
                                         <a href="product/<?=$item['alias']?>" class="mask">
-                                            <img class="img-responsive zoom-img" src="images/<?=$item['img']?>" alt="" /></a>
+                                            <img class="img-responsive zoom-img" src="<?=PRODUCTIMG.$item['img']?>" alt="" /></a>
                                         <div class="product-bottom">
                                             <h3>
                                                 <a href="product/<?=$item['alias']?>">
