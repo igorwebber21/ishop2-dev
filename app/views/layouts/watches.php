@@ -9,6 +9,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 
     <base href="/">
+<?php if(isset($canonical) && $canonical): ?>
+    <link rel="canonical" href="<?=$canonical?>">
+<?php endif; ?>
     <link rel="shortcut icon" href="/images/star.png" type="image/png" />
     <?=$this->getMeta();?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />

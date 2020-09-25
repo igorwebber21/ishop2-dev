@@ -21,8 +21,10 @@
             //current currency
             $curr = App::$app->getProperty('currency');
 
+            $canonical = PATH;
+
             //debug($hits);
-            $this->set(compact('brands', 'hits', 'curr'));
+            $this->set(compact('brands', 'hits', 'curr', 'canonical'));
 
            // $this->setMeta(App::$app->getProperty("shop_name"), "Описание", "Ключевики");
 
