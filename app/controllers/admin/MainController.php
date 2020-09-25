@@ -10,7 +10,7 @@ class MainController extends AppController
 {
     public function indexAction()
     {
-        $countNewOrders = R::count('orders', "status = '0'");
+        $countNewOrders = R::count('orders', "status = 'new'");
         $countUsers = R::count('user');
         $countProducts = R::count('product');
         $countCategories = R::count('category');

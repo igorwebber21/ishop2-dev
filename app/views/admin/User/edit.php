@@ -74,10 +74,10 @@
                                 </thead>
                                 <tbody>
                                 <?php foreach($orders as $order): ?>
-                                    <?php $class = $order['status'] ? 'success' : ''; ?>
+                                    <?php $class = $order['status'] == 'completed' ? 'success' : ''; ?>
                                     <tr class="<?=$class;?>">
                                         <td><?=$order['id'];?></td>
-                                        <td><?=$order['status'] ? 'Завершен' : 'Новый';?></td>
+                                        <td><?=($order['status'] == 'new') ? 'Новый' : 'Завершен';?></td>
                                         <td><?=$order['sum'];?> <?=$order['currency'];?></td>
                                         <td><?=$order['date'];?></td>
                                         <td><?=$order['update_at'];?></td>
